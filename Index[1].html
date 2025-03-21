@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Graduação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Organizador de Graduação</h1>
+        <nav>
+            <ul>
+                <li><a href="#tarefas">Tarefas Diárias</a></li>
+                <li><a href="#calendario">Calendário</a></li>
+                <li><a href="#notas">Notas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tarefas">
+            <h2>Tarefas Diárias</h2>
+            <div class="task-input">
+                <input type="text" id="novaTarefa" placeholder="Adicione uma nova tarefa..." />
+                <button id="adicionarTarefa">+</button>
+            </div>
+            <ul id="listaTarefas">
+                <!-- As tarefas serão exibidas aqui -->
+            </ul>
+        </section>
+
+        <section id="calendario">
+            <h2>Calendário</h2>
+            <div class="calendar">
+                <p>Calendário Interativo (Em breve)</p>
+            </div>
+        </section>
+
+        <section id="notas">
+            <h2>Notas e Recursos</h2>
+            <ul>
+                <li><a href="#">Material de estudo de Cálculo Diferencial</a></li>
+                <li><a href="#">Notas sobre Laboratório de Física</a></li>
+                <li><a href="#">Link para livros recomendados</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Organizador de Graduação &copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
